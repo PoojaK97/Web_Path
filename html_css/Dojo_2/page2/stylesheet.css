@@ -1,0 +1,127 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width:100%;
+  background: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  z-index: 10;
+}
+
+header img {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  color: white;
+  display: block;
+  background: rgba(255, 255, 255, 0.3);
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: all 0.5s;
+  line-height: 65px;
+  cursor: pointer;
+}
+
+.right:hover {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.top {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  text-align:center;
+}
+
+.head1 {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head1 h1 {
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:5px;
+  margin-bottom: 10px;
+}
+
+.head1 p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.fa {
+  margin-right: 5px;
+} 
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.signup {
+  background-color:#239b76;
+}
+
+.facebook {
+  background-color:#3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color:#55acee;
+} 
