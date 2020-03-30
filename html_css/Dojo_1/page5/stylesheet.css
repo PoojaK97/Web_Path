@@ -1,0 +1,127 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+header .container {
+  background-color: #26d0c9 ;
+  color: #fff;
+  height: 90px;
+}
+
+header .heading1 {
+  font-size: 36px;
+  margin: 20px 40px;
+  float:left;
+}
+
+header .heading2 {
+  margin: 33px 20px;
+  float:left;
+}
+
+.main {
+  margin-left:80px;
+  margin-right:80px;
+}
+.heading {
+  margin-top: 100px;
+}
+
+.heading span {
+  color: #ff4a4a;
+}
+
+.heading h1 {
+  font-size:140px;
+}
+
+.heading h2 {
+  font-size:60px;
+}
+
+.subheading {
+  margin-top:100px;
+  padding-bottom:15px;
+  border-bottom: 2px solid #dee7ec;
+  margin-bottom:50px;
+}
+
+.subheading h3 {
+  font-size: 28px;
+}
+
+.lessons {
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.lesson {
+  float: left;
+  margin-right: 40px;
+}
+
+.lesson img {
+  margin-bottom: 30px;
+}
+
+.lesson p {
+  font-size: 24px;
+}
+
+.contact {
+  margin-bottom: 100px;
+}
+.ele {
+  margin-bottom: 30px;
+}
+
+.ele p {
+  margin-bottom: 10px;
+}
+
+.ele input, textarea {
+  padding: 20px;
+  font-size: 18px;
+  width: 400px;
+  border: 1px solid #dee7ec;
+}
+
+.btn {
+  background: #dee7ec;
+  color: #889eab;
+}
+
+footer{
+  background: #2f5167;
+  color: #fff;
+  padding: 50px;
+  margin-top: 120px;
+  height: 120px;
+}
+
+.head1 {
+  font-size: 32px;
+  float: left;
+}
+
+.links {
+  float:right;
+}
+
+.links p {
+  margin-bottom: 20px;
+}

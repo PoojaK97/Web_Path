@@ -1,0 +1,50 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+header .container {
+  background-color: #26d0c9 ;
+  color: #fff;
+  height: 90px;
+}
+
+header .heading1 {
+  font-size: 36px;
+  margin: 20px 40px;
+  float:left;
+}
+
+header .heading2 {
+  margin: 33px 20px;
+  float:left;
+}
+
+.heading {
+  margin: 100px 80px;
+}
+
+.heading span {
+  color: #ff4a4a;
+}
+
+.heading h1 {
+  font-size:140px;
+}
+
+.heading h2 {
+  font-size:60px;
+}
